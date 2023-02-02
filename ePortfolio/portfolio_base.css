@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/*
+Author: John Payne
+Date: 2/02/2023
+*/
+
+body{
+    background-color: #5cbdb9;
+    color: orange;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-size: 1.2em;
+}
+
+a {
+    color: gold;
+}
+
+#para1{
+    color: black;
+}
+
+#para2{
+    color: white;
+}
+
+h1 {
+    color: gold;
+  }
+
+h2 {
+    color: black;
+}
+  
