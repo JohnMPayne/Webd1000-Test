@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*
+Author: John Payne
+Date: 02/07/2023
+This is the layout style page for Acme Lawn Care
+*/
+
+body {
+    min-width: 800px;
+  }
+
+h1 {
+    text-align: center;
+  }
+
+h2 {
+    text-align: center;
+  }
+
+h3 {
+    text-align: center;
+  }
+
+img {
+    float: right;
+  }
+
+#mowing {
+    float: left;
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 20px;
+    height: 350px;
+  }
+
+#weeding {
+    float: left;
+    width: 40%;
+    margin-right: 4%;
+    margin-bottom: 20px;
+    height: 350px;
+  }
+
+#landscaping {
+    width: 88%;
+    margin-left: 4%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+footer {
+    text-align: center;
+  }
