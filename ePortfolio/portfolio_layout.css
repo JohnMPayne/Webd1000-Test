@@ -24,12 +24,30 @@ Description: Layout CSS file for the ePortfolio
     grid-row: 1 / 6;
 }
 
-@media only screen and (max-width: 767) { 
-}
 
-@media only screen and (min-width: 768) { 
-}
+@media screen and (max-width: 767px) {
+    .My-Resume {
+        display: block;
+    }
+    }
+  
 
-@media only screen and (min-width: 1024) { 
-}
+  /* Grid layout for larger screens */
+@media (min-width: 768px) {
+    .My-Resume {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* three columns */
+    }
+    div#nav>a{
+        float:left;
+        width:20%;
+        background-color: gold;
+     }
+
+    div#nav{
+       list-style-type: none;
+       width:100%;
+       overflow:hidden;
+     }
+  }
 
