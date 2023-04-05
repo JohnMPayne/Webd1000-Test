@@ -10,7 +10,6 @@ Description: Layout CSS file for the ePortfolio
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 100px 100px 100px 100px 100px 100px;
-
     
 }
 
@@ -24,12 +23,12 @@ Description: Layout CSS file for the ePortfolio
     grid-row: 1 / 6;
 }
 
-
+/* Grid layout for phones*/
 @media screen and (max-width: 767px) {
     .My-Resume {
         display: block;
     }
-    }
+}
   
 
   /* Grid layout for larger screens */
@@ -41,7 +40,7 @@ Description: Layout CSS file for the ePortfolio
     div#nav>a{
         float:left;
         width:20%;
-        background-color: gold;
+        background-color: black;
      }
 
     div#nav{
@@ -49,5 +48,7 @@ Description: Layout CSS file for the ePortfolio
        width:100%;
        overflow:hidden;
      }
-  }
+}
+
+
 
